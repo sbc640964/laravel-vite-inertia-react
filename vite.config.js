@@ -33,12 +33,12 @@ export default ({ command }) => ({
         }
     ],
 
-    css: {
-        postCss: {
-            plugins: {
-                tailwindcss: {},
-                autoprefixer: {},
-            },
-        },
-    },
+    // css: {
+    //     postCss: {
+    //         plugins: {
+    //             tailwindcss: {},
+    //             autoprefixer: {},
+    //         },
+    //     },
+    // },
 });
