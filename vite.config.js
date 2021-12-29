@@ -14,6 +14,10 @@ export default ({ command }) => ({
         },
     },
 
+    esbuild: {
+        jsxInject: `import React from 'react'`,
+    },
+
     plugins: [
         reactRefresh(),
         {
